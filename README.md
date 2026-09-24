@@ -4,7 +4,7 @@ A segmented enterprise network security monitoring lab built end-to-end — fire
 
 Simulated organization: **Meridian Logistics Co.**
 
-📄 [Full Project Documentation](docs/Enterprise_Wazuh_SOC_Deployment_Complete_Documentation.docx) — objectives, architecture, methodology, consolidated findings, and recommendations
+📄 [Full Project Documentation](docs/Meridian_SOC_Wazuh_Deployment_Investigation_Portfolio.docx) — objectives, architecture, methodology, consolidated findings, and recommendations
 📁 [Per-Scenario Investigation Reports](docs/) — detailed timelines and evidence for each scenario
 
 ---
@@ -67,7 +67,7 @@ Each scenario followed the same structure: define an objective, execute the tech
 - **An unpurged legacy kernel package** was found doubling the reported vulnerability count on the DMZ server (Scenario 4)
 - One item — a pfSense syslog decoding issue discovered during Scenario 5 verification — is documented as an open follow-up rather than presented as resolved
 
-Full detail, remediation, and MITRE mapping for each finding is in the [project documentation](docs/Enterprise_Wazuh_SOC_Deployment_Complete_Documentation.docx).
+Full detail, remediation, and MITRE mapping for each finding is in the [project documentation](docs/Meridian_SOC_Wazuh_Deployment_Investigation_Portfolio.docx).
 
 ## Custom Detection Rules Authored
 
@@ -83,7 +83,7 @@ Network segmentation & firewall administration · SIEM/XDR deployment and tuning
 
 ## Documentation
 
-- [`docs/Enterprise_Wazuh_SOC_Deployment_Complete_Documentation.docx`](docs/) — full project documentation: objectives, scope, problem statement, architecture, methodology, consolidated findings, lessons learned, recommendations
+- [`docs/Meridian_SOC_Wazuh_Deployment_Investigation_Portfolio.docx`](docs/) — full project documentation: objectives, scope, problem statement, architecture, methodology, consolidated findings, lessons learned, recommendations
 - `docs/Scenario1_Investigation_Report.docx` — SCN-01-BRUTEFORCE
 - `docs/Scenario2_Investigation_Report.docx` — SCN-02-FILETAMPER
 - `docs/Scenario3_Investigation_Report.docx` — SCN-03-FTPEXFIL
